@@ -19,7 +19,7 @@ header {
 nav {
 	background-color: #ebebeb;
 	padding: 20px;
-	margin: 10px 82px 30px 82px;
+	margin: 10px 82px 20px 82px;
 }
 
 section {
@@ -36,6 +36,7 @@ article {
 
 aside {
 	margin: 0px 50px 0px 15px;
+	float: right;
 }
 
 p {
@@ -46,6 +47,8 @@ p {
 
 footer {
 	background-color: #ebebeb;
+	margin: 10px 82px 20px 82px;
+	clear: both;
 }
 
 .group {
