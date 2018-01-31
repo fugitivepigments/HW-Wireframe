@@ -26,13 +26,12 @@ section {
 	display: block;
 	float: left;
 	width: 495px;
-	margin: 0px 15px 0px 82px;
 }
 
 article {
 	background-color: #777;
 	display: block;
-	
+
 }
 
 aside {
@@ -47,4 +46,9 @@ p {
 
 footer {
 	background-color: #ebebeb;
+}
+
+.group {
+	display: table;
+	margin: 0px 15px 0px 82px;
 }
