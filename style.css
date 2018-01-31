@@ -39,6 +39,7 @@ article {
 aside {
 	margin: 0px 50px 0px 15px;
 	float: right;
+	width: 100%;
 }
 
 p {
@@ -53,7 +54,7 @@ footer {
 	clear: both;
 }
 
-.group {
-	display: table;
+.container {
+	overflow: hidden;
 	margin: 0px 15px 0px 82px;
 }
