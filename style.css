@@ -9,19 +9,16 @@
 
 body {
 	background-color: #777;
-	width: 960px;
 }
 
 header {
 	background-color: #ebebeb;
 	padding: 20px;
-	margin: 10px 82px 10px 82px;
 }
 
 nav {
 	background-color: #ebebeb;
 	padding: 20px;
-	margin: 10px 82px 20px 82px;
 }
 
 section {
@@ -37,9 +34,9 @@ article {
 }
 
 aside {
-	margin: 0px 50px 0px 15px;
-	float: right;
+	display: table-cell;
 	width: 100%;
+	height: 100%;
 }
 
 p {
@@ -50,11 +47,21 @@ p {
 
 footer {
 	background-color: #ebebeb;
-	margin: 10px 82px 20px 82px;
 	clear: both;
 }
 
 .container {
 	overflow: hidden;
-	margin: 0px 15px 0px 82px;
+	display: table;
+}
+
+.wrapper {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top-bottom-margins {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
